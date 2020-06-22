@@ -22,5 +22,12 @@
 <body>
   <h1>Heading</h1>
   <p>Hello world!</p>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script>
 </body>
 </html>
