@@ -1,0 +1,17 @@
+{
+  "name": "Document",
+  "short_name": "Doc",
+  "description": "Document",
+  "lang": "en-US",
+  "dir": "ltr",
+  "theme_color": "#ffffff",
+  "start_url": "/",
+  "background_color": "#000000",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "icons": [{
+    "src": "/favicon.png",
+    "sizes": "72x72",
+    "type": "image/png"
+   }]
+ }
