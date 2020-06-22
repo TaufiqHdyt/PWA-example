@@ -1,7 +1,7 @@
 module.exports = {
   globDirectory: './',
   globPatterns: [
-    '*.{json,js,css,woff}'
+    '*.{html,json,js,css,woff}'
   ],
   swDest: './sw.js',
   runtimeCaching: [{
